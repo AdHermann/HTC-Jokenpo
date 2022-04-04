@@ -79,6 +79,8 @@ body {
 .battlefield {
   margin-top: 56px;
   height: 414px;
+
+  display: flex;
 }
 
 .button-wrapper {
@@ -109,6 +111,29 @@ body {
     box-shadow: 1px 1px 1px #000000;
 }
 
+.field-box{
+    width: 1313px;
+    height: 414px; 
+    margin: 0 19px;
+    background-color: var(--background-box-color);
+    border-radius: 17px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+padding: 35px;
+box-sizing: border-box;
 
+}
 
+.field{
+    width: 464px;
+    height: 345px;
+    background-color: var(--scoreboard-number-background-color);
+    border-radius: 17px;
+}
 
+.vs-big{
+    font-size: 104px;
+    color: var(--font-main-color);
+    font-weight: 900;
+}
