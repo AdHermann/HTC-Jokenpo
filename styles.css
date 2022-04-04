@@ -129,7 +129,15 @@ body {
   height: 345px;
   background-color: var(--scoreboard-number-background-color);
   border-radius: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.stone-hand{
+    width: 100%;
+}
+
 
 .vs-big {
   font-size: 104px;
@@ -145,3 +153,4 @@ body {
 .button-reset {
   margin-left: 101px;
 }
+
