@@ -90,7 +90,7 @@ body {
   justify-content: space-between;
 }
 
-.button-play {
+.button {
   width: 220px;
   height: 80px;
   background-color: var(--background-box-color);
@@ -104,7 +104,7 @@ body {
   box-shadow: 3px 3px 10px #000000;
 }
 
-.button-play:hover{
+.button:hover{
     border: 1px solid var(--background-box-color);
     background-color: transparent;
     color: var(--background-box-color);
@@ -136,4 +136,13 @@ box-sizing: border-box;
     font-size: 104px;
     color: var(--font-main-color);
     font-weight: 900;
+}
+
+.config{
+    margin-top: 22px;
+    font-size: 33px;
+}
+
+.button-reset{
+    margin-left: 101px;
 }
