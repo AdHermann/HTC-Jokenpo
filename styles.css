@@ -58,7 +58,7 @@ body {
   height: 130px;
   width: 120px;
   border-radius: 17px;
-  font-weight: 900;
+  font-weight: 900 ;
 
   display: flex;
   justify-content: center;
@@ -104,45 +104,44 @@ body {
   box-shadow: 3px 3px 10px #000000;
 }
 
-.button:hover{
-    border: 1px solid var(--background-box-color);
-    background-color: transparent;
-    color: var(--background-box-color);
-    box-shadow: 1px 1px 1px #000000;
+.button:hover {
+  border: 1px solid var(--background-box-color);
+  background-color: transparent;
+  color: var(--background-box-color);
+  box-shadow: 1px 1px 1px #000000;
 }
 
-.field-box{
-    width: 1313px;
-    height: 414px; 
-    margin: 0 19px;
-    background-color: var(--background-box-color);
-    border-radius: 17px;
-    display: flex;
-   justify-content: space-between;
-   align-items: center;
-padding: 35px;
-box-sizing: border-box;
-
+.field-box {
+  width: 1313px;
+  height: 414px;
+  margin: 0 19px;
+  background-color: var(--background-box-color);
+  border-radius: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+  box-sizing: border-box;
 }
 
-.field{
-    width: 464px;
-    height: 345px;
-    background-color: var(--scoreboard-number-background-color);
-    border-radius: 17px;
+.field {
+  width: 464px;
+  height: 345px;
+  background-color: var(--scoreboard-number-background-color);
+  border-radius: 17px;
 }
 
-.vs-big{
-    font-size: 104px;
-    color: var(--font-main-color);
-    font-weight: 900;
+.vs-big {
+  font-size: 104px;
+  color: var(--font-main-color);
+  font-weight: 900;
 }
 
-.config{
-    margin-top: 22px;
-    font-size: 33px;
+.config {
+  margin-top: 22px;
+  font-size: 33px;
 }
 
-.button-reset{
-    margin-left: 101px;
+.button-reset {
+  margin-left: 101px;
 }
