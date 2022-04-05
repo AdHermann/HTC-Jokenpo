@@ -154,3 +154,7 @@ body {
   margin-left: 101px;
 }
 
+.field-player-2{
+    
+    transform: scaleX(-1);
+}
