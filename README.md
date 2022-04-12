@@ -1,2 +1,2 @@
 # HTC-Jokenpo
-HTC challenge, elaborated a jokenpo game with JS
+HTC challenge, elaborated a jokenpo game
